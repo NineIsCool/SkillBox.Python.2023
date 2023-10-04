@@ -1,7 +1,7 @@
 str = input().lower()
 vowels = "ауоыиэяюёе"
 consonants="бвгджзйклмнпрстфхцчшщ"
-count_v,count_c=0,0
+count_v, count_c=0,0
 for char in str:
     if char in vowels:
         count_v+=1

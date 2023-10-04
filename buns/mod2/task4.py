@@ -1,7 +1,7 @@
 try:
-    num=int(input('Введите натуральное число:'))
+    num=int(input())
     if num>=0:
-        print(bin(num)[2:], oct(num)[2:], hex(num)[2:])
+        print(f'{num:b}',', ', f'{num:o}', ', ', f'{num:x}')
     else:
         raise ValueError('Invalid input')
 except:

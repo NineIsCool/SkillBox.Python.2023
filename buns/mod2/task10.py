@@ -1,4 +1,4 @@
-words = input().strip()+' '
+words = input()+' '
 res_word = ''
 for i in range(len(words)):
     if words[i] == ' ':
